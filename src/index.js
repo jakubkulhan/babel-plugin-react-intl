@@ -6,7 +6,7 @@
 
 import {createHash} from 'crypto';
 import {existsSync, readFileSync, writeFileSync} from 'fs';
-import {Document, Element, parseXml} from 'libxmljs';
+import {Document, Element, parseXml} from 'libxmljs2';
 import {sync as mkdirpSync} from 'mkdirp';
 import * as p from 'path';
 import printICUMessage from './print-icu-message';
